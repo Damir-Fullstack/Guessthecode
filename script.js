@@ -9,6 +9,7 @@ function del() {
   cd.innerHTML = "No Code";
 }
 function error() {
+  alert.innerHTML = "In this code is only 4 numbers, not more";
   setTimeout(() => {
       alert.innerHTML = "I'm alert-system(in this program)";
       del();

@@ -26,7 +26,7 @@ function clickO() {
   } else if(sc[1] !== "0"){
     sc[2] = "1";
   } else if(sc[0] !== "0") {
-    sc[1] = 1;
+    sc[1] = "1";
   }
   con = sc[0] + sc[1] + sc[2] + sc[3];
   cd.innerHTML = con;

@@ -72,7 +72,9 @@ function clickFo() {
     sc[3] = "4";
   } else if(sc[1] !== "0"){
     sc[2] = "4";
-  } 
+  } else if(sc[0] !== "0") {
+    sc[1] = "4";
+  }
   con = sc[0] + sc[1] + sc[2] + sc[3];
   cd.innerHTML = con;
 };

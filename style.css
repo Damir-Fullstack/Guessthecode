@@ -1,0 +1,12 @@
+div{
+  border: black solid 1px;
+  border-radius: 3px;
+}
+body{
+  background-color: aliceblue;
+}
+button{
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 3px;
+}

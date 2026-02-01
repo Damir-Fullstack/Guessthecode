@@ -6,7 +6,7 @@ alert.innerHTML = "I'm alert-system(in this program)"
 cd.innerHTML = con;
 function del() {
   con = "0000";
-  cd.innerHTML = "No Code";
+  cd.innerHTML = "0000";
 }
 function error() {
   alert.innerHTML = "In this code is only 4 numbers, not more";

@@ -179,3 +179,13 @@ function clickN() {
   }
   con = sc[0] + sc[1] + sc[2] + sc[3];
 };
+function enter() {
+  if(con === code) {
+    cd.innerHTML = "YOU WON!"
+  } else{
+    cd.innerHTML = "WRONG CODE";
+    setTimeout({
+      del();
+    }, 1000)
+  }
+}
